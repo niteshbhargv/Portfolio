@@ -1,0 +1,188 @@
+@media (min-width: 900px){
+	body {
+		background-image: url("/images/backgrounf.jpg");
+		background-repeat: no-repeat;
+		background-attachment: fixed;
+		background-size: cover; 	
+	}
+	header{
+		width: 100%;
+		position: fixed;
+		top: 0;
+		z-index: 999;
+		background-color: white;
+	}
+	nav{
+		display: flex;
+	}
+	ul{
+		width: 100%;
+	}
+	li{
+		padding-left: 50px;
+	}
+	.container{
+		width: 100%;
+		position: relative;
+		padding: 0px 0px 170px 0px;
+	}
+	.row{
+		width: 100%;
+	}
+	.column{
+		margin: 130px 0;
+		padding: 15px;
+		width: 50%;
+	}
+	h1{
+		font-size: 50px;
+		font-weight: bold;
+	}
+	h3{
+		font-size: 40px;
+	}
+	h5{
+		font-size: 30px;
+	}
+	a{
+		font-weight: bold;
+	}
+	.about_me{
+		position: relative;
+	}
+	a[type=button]{
+		border-radius: 5%;
+		position: relative;
+		background-color: #854fee;
+		margin-left: 55px;
+		margin-top: 20px;
+		padding: 13px 40px;
+		color: white;
+		font-weight: normal;
+		text-decoration: none; 
+	}
+	.style_featured{
+		padding: 20px;
+		text-align: center;
+		color: #854fee;
+	}
+	.style_featured > div > div{
+		padding: 10px;
+		border: 1px solid transparent;
+		border-radius: 4px;
+		transition: 0.5s;
+	}
+	.style_featured > div:hover > div{
+		margin-top: +19px;
+		border: 1px solid #854fee;
+		box-shadow: rgba(0, 0, 0, 0.1) 0px 9px 9px 9px;
+		background: rgba(153, 200, 250, 0.1);
+		transition: 0.99s;
+	}
+	#skills img{
+		width: 30%; 
+	}
+	.follow{
+		font-size: 34px; 
+	}
+	.follow a{
+		color: white;	
+	}
+}
+
+@media (max-width: 500px){
+
+
+body {
+  background-image: url("/images/backgrounf.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover; 	
+}
+header{
+	width: 100%;
+	position: relative;
+	top: 0;
+	z-index: 999;
+	background-color: white;
+}
+nav{
+	display: flex;
+}
+ul{
+	width: 50%;
+}
+li{
+	padding-left: 10px;
+}
+.container{
+	width: 100%;
+	position: sticky;
+}
+.row{
+	width: 100%;
+}
+.column{
+	margin: 50px 0;
+	padding: 15px;
+	width: 50%;
+}
+h1{
+	font-size: 20px;
+	font-weight: bold;
+}
+h3{
+	font-size: 18px;
+}
+h5{
+	font-size: 15px;
+}
+a{
+	font-weight: bold;
+}
+.about_me{
+	position: relative;
+}
+a[type=button]{
+	border-radius: 5%;
+	position: relative;
+	background-color: #854fee;
+    margin-left: 55px;
+    margin-top: 20px;
+    padding: 7px 10px;
+	color: white;
+	font-weight: normal;
+	text-decoration: none; 
+	text-align: center;
+}
+.style_featured{
+    padding: 20px;
+    text-align: center;
+    color: #854fee;
+}
+.style_featured > div > div{
+    padding: 10px;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    transition: 0.5s;
+}
+.style_featured > div:hover > div{
+    margin-top: +19px;
+    border: 1px solid #854fee;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 9px 9px 9px;
+    background: rgba(153, 200, 250, 0.1);
+    transition: 0.99s;
+}
+#skills img{
+	width: 50%; 
+}
+#skills h2{
+	font-size: 20px;
+}
+.follow{
+	font-size: 34px; 
+}
+.follow a{
+	color: white;	
+}
+}
